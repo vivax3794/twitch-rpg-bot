@@ -1,5 +1,6 @@
 # twitch-rpg-bot
 a twitch rpg bot
+
 you need "twitchio" to run this
 
 you also need to fill in your twitch tokens in classes/BotConfig.py
