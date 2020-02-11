@@ -1,0 +1,18 @@
+[
+  {
+    "attack": "1d10 + 1",
+    "defence": "1d5 - 2"
+  },
+  {
+    "attack": "2d6 + 1",
+    "defence": "2d3 + 1"
+  },
+  {
+    "attack": "2d7 - 1",
+    "defence": "1d10 - 2"
+  },
+  {
+    "attack": "3d3 - 1",
+    "defence": "6d2 + 1"
+  }
+]

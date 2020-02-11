@@ -1,0 +1,124 @@
+{
+  "red candy": {
+    "name": "red candy",
+    "value": 5,
+
+    "cost": 5,
+    "shop": "candy",
+
+    "kwargs": {
+      "min_health": 20
+    },
+
+    "type": "health",
+    "description": "A small red candy, you fingers feel warm holding it",
+    "used": "You eat the red candy, you feel a warm feeling in your hole body. +5 health",
+    "cant use": "you dont have the energy to eat this. (you need 20+ health)"
+  },
+  "rotting pear": {
+    "name": "rotting pear",
+    "type": "dmg",
+    "value": 10,
+
+    "cost": null,
+    "shop": null,
+
+    "kwargs": {
+      "can die": false,
+      "died": "You died even when you cant die of this."
+    },
+
+    "description": "a brown pear, some bugs are crawling in it. but if you have nothing else, what can you lose?",
+    "used": "you eat the pear, a strange felling. then you feel it in your stomach, and awful pain. (-10 health, you wont die of this)",
+    "cant use": " an always use."
+  },
+  "air": {
+    "name": "air",
+    "type": "air",
+    "value": null,
+
+    "cost": null,
+    "shop": null,
+
+    "kwargs": {
+      "when_used_up": "as you run out of air, you feel your mind slipping. (you die, what did you except using up all your air?)"
+    },
+
+    "description": "just air, nothing more. ohh, you don't know what air is? it's what keeps you alive!!!",
+    "used": "you breath in (nothing happened)",
+    "cant use": "you can always breath"
+  },
+  "red potion": {
+    "name": "red potion",
+    "type": "health potion",
+    "value": 20,
+
+    "cost": 30,
+    "shop": "potion",
+
+    "kwargs": {
+      "min_health": 0,
+      "black out": "You are starting to see blurry, you black out. .............. You find your self in a hospital, with just a few coins left and you don't remember what happened. (-50% gold and xp)",
+      "to black out": 3
+    },
+
+    "description": "a bottle, with a red liquid. A warning label, you don't care and just read, contains .... don't drink to much.",
+    "used": "You decide to drink it, you see a wound on your left arm close. wow, should you drink more? +20 health",
+    "cant use": "can always use"
+  },
+  "anti-pear amulet": {
+    "name": "anti-pear amulet",
+    "type": "nothing",
+    "value": null,
+    "cost": 10,
+    "shop": "amulet",
+    "kwargs": {},
+    "description": "A pear shaped amulet, with strong green glow.",
+    "used": "you are wear the amulet, what now? nothing, must have been a scam.",
+    "cant use": "can always use"
+  },
+  "bow": {
+    "name": "bow",
+    "type": "bow",
+    "value": 1,
+
+    "shop": "bow",
+    "cost": 10,
+
+    "kwargs": {
+      "arrow": "arrow"
+    },
+
+    "description": "A wood bow, like everybody has. you had a dream once, about as small iron bow that shot tiny steel arrows.",
+    "used": null,
+    "cant use": null
+  },
+  "arrow": {
+    "name": "arrow",
+    "type": "nothing",
+    "value": 3,
+
+    "shop": "bow",
+    "cost": 3,
+
+    "kwargs": {},
+
+    "description": "a wooden arrow with a steel tip, maybe you can eat your food with this? much better than using your hands.",
+    "used": "you take a arrow, and trow it, like really hard. AND, it hits the ground.",
+    "cant use": null
+  },
+  "amulet of knowledge": {
+    "name": "amulet of knowledge",
+    "type": "nothing",
+    "value": null,
+
+    "shop": "amulet",
+    "cost": 10,
+
+    "kwargs": {},
+
+    "description": "a amulet with a green glow, for some reason you feel smarter holding it.",
+    "used": "you put it on, nothing. but it's an amulet it probably does something, like making your food taste 1% better.",
+    "cant use": null
+  }
+}

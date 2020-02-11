@@ -1,0 +1,57 @@
+{
+  "orc": {
+    "name": "orc",
+    "icon": "SMOrc",
+    "attack": "2d4 - 1",
+    "defence": "1d3 + 1",
+    "health": 10,
+    "reward": {
+      "gold": 2,
+      "xp": 10
+    }
+  },
+  "streamer": {
+    "name": "streamer",
+    "icon": "TheIlluminati",
+    "attack": "2d5 - 2",
+    "defence": "1d4 + 1",
+    "health": 20,
+    "reward": {
+      "gold": 5,
+      "xp": 20
+    }
+  },
+  "kraken": {
+    "name": "kraken",
+    "icon": "Squid1 Squid2 Squid3 Squid2 Squid4",
+    "attack": "3d4 + 3",
+    "defence": "2d4 - 5",
+    "health": 30,
+    "reward": {
+      "gold": 7,
+      "xp": 50
+    }
+  },
+  "upjumpian": {
+    "name": "upjumpian",
+    "icon": "BrainSlug",
+    "attack": "1d2 + 2",
+    "defence": "1d5 + 2",
+    "health": 5,
+    "reward": {
+      "gold": 20,
+      "xp": 5
+    }
+  },
+  "gold chest": {
+    "name": "gold chest",
+    "icon": "DoritosChip",
+    "attack": "1d10 - 9",
+    "defence": "1d10 - 2",
+    "health": 50,
+    "reward": {
+      "gold": 50,
+      "xp": 0
+    }
+  }
+}

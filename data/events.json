@@ -1,0 +1,67 @@
+[
+  {
+    "type": "item",
+    "value": "air",
+
+    "kwargs": {
+      "amount": 5
+    },
+
+    "message": "You stop on your travels, and admire the landscape. you take a depth breath in (+5 air)"
+  },
+  {
+    "type": "item",
+    "value": "rotting pear",
+
+    "kwargs": {
+      "amount": 2
+    },
+    "message": "While walking in a back ally, you find some pears. without thinking you take them. (+2 rotting pear)"
+  },
+  {
+    "type": "gold",
+    "value": 30,
+    "kwargs": {},
+    "message": "you step into a portal, find you self in a strange place. after some talking you find out the locals called it 'Jumpsville'. suddently you are sucked back to your own world, you got some gold from a stranger before you left. much more valuable in this world then theirs you think. (+ 30 gold)"
+  },
+  {
+    "type": "healthTimes",
+    "value": 2,
+    "kwargs": {},
+    "message": "You find a nice place for the night, your health doubled (max 40)"
+  },
+  {
+    "type": "item",
+    "value": "arrow",
+    "kwargs": {
+      "amount": 5
+    },
+    "message": "While walking out of a cave you find a skeleton. between the rib bones you find some arrows, probably what killed the man (+5 arrows)"
+  },
+  {
+    "type": "nothing",
+    "value": null,
+    "kwargs": {},
+    "message": "you walk into the portal to Jumpsville, you see a mysterious figure, they call him vivax, and another dude shouting about how he is the real vivax. you back off slowly into the portal."
+  },
+  {
+    "type": "magicStone",
+    "value": 5,
+    "kwargs": {
+      "item": "amulet of knowledge",
+      "new_message": "you find a weird stone in the mountains, after some inspection you see it has letters. first you cant read them, but suddently you somehow can. you see a green glow from your pocket. you read what it says, some small stones nearby turns to gold. +5 gold"
+    },
+    "message": "you find a weird stone in the mountains, after some inspection you see it has letters. but you cant read them. maybe you should have paid better attention in school?"
+  },
+  {
+    "type": "command",
+    "value": null,
+    "kwargs": {
+      "time": 2,
+      "extra messages": [
+        "!spawn dragon jumpsville portal"
+        ]
+    },
+    "message": "While walking by the portal you see a dragon fly into it."
+  }
+]

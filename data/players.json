@@ -1,0 +1,80 @@
+[
+    {
+        "owner": "vivax3794",
+        "name": "vivax",
+        "health": 11,
+        "gold": 14,
+        "xp": 55,
+        "level": 1,
+        "inventory": [
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "bow"
+        ],
+        "item_data": {}
+    },
+    {
+        "owner": "sizzlorr",
+        "name": "sizzlorr",
+        "health": 36,
+        "gold": 32,
+        "xp": 10,
+        "level": 1,
+        "inventory": [
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air"
+        ],
+        "item_data": {}
+    },
+    {
+        "owner": "addeponken",
+        "name": "ponk",
+        "health": 38,
+        "gold": 0,
+        "xp": 0,
+        "level": 1,
+        "inventory": [
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "air",
+            "arrow",
+            "arrow",
+            "arrow",
+            "arrow",
+            "arrow"
+        ],
+        "item_data": {}
+    }
+]
