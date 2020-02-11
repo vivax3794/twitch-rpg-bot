@@ -9,7 +9,7 @@ class BotConfig(object):
     CLIENT_ID = "token"  # the bot's Client id
     BOT_NICK = "TheRealVivax"  # bot nick name
     BOT_PREFIX = "%"  # command prefix
-    CHANNEL = "upjump"  # twitch channel to be in
+    CHANNEL = "beginbot"  # twitch channel to be in
     COGS: List[str] = [
         "event",  # logging messages, and ready message
         "file",  # loading and saving commands.
